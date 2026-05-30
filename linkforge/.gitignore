@@ -1,0 +1,66 @@
+# =========================
+# Maven / Gradle build
+# =========================
+target/
+*.jar
+*.war
+*.ear
+*.class
+
+# =========================
+# Spring Boot config (НЕ КОММИТИТЬ СЕКРЕТЫ)
+# =========================
+application.properties
+application.yml
+
+# если используешь шаблоны конфигов — оставь их
+!application-example.properties
+!application-example.yml
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# IDE - IntelliJ IDEA
+# =========================
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
+# Eclipse / STS
+# =========================
+.classpath
+.project
+.settings/
+.springBeans
+.sts4-cache
+
+# =========================
+# NetBeans
+# =========================
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Maven Wrapper (оставляем только нужное)
+# =========================
+!.mvn/wrapper/maven-wrapper.jar
