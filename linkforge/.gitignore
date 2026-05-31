@@ -10,8 +10,8 @@ target/
 # =========================
 # Spring Boot config (НЕ КОММИТИТЬ СЕКРЕТЫ)
 # =========================
-application.properties
-application.yml
+#application.properties
+#application.yml
 
 # если используешь шаблоны конфигов — оставь их
 !application-example.properties

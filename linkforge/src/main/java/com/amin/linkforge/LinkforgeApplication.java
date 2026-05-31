@@ -10,4 +10,4 @@ public class LinkforgeApplication {
 		SpringApplication.run(LinkforgeApplication.class, args);
 	}
 
-}
+	}
